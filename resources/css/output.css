@@ -647,9 +647,23 @@ video {
   grid-row: span 3 / span 3;
 }
 
+.float-right {
+  float: right;
+}
+
 .-mx-3 {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
+}
+
+.mx-\[1vw\] {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.my-\[3\%\] {
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .-ml-px {
@@ -670,6 +684,10 @@ video {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-\[1\%\] {
+  margin-top: 1%;
 }
 
 .block {
@@ -760,8 +778,12 @@ video {
   height: 2vh;
 }
 
-.h-\[50\%\] {
-  height: 50%;
+.h-\[40\%\] {
+  height: 40%;
+}
+
+.h-\[60vh\] {
+  height: 60vh;
 }
 
 .h-\[80vh\] {
@@ -797,8 +819,12 @@ video {
   width: 100vw;
 }
 
-.w-\[30vw\] {
-  width: 30vw;
+.w-\[26vw\] {
+  width: 26vw;
+}
+
+.w-\[60vw\] {
+  width: 60vw;
 }
 
 .w-\[70\%\] {
@@ -934,16 +960,16 @@ video {
   gap: 2rem;
 }
 
+.self-end {
+  align-self: flex-end;
+}
+
 .self-center {
   align-self: center;
 }
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.text-wrap {
-  text-wrap: wrap;
 }
 
 .rounded {
