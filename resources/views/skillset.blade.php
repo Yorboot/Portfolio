@@ -1159,7 +1159,6 @@
 <main class="h-[80vh] w-[100vw] flex  flex-col justify-center items-center">
         <div class="w-[60vw] h-[60vh] bg-black rounded flex flex-col items-center justify-center">
             <h1 class="w-fit text-4xl">Laravel</h1>
-            <div class="text-2xl mt-[1%]">I have {{app('Helper')->year(2024)}} of experience using Laravel</div>
             <div class="grid grid-cols-2 my-[3%]">
                 @livewire('skillset')
 
