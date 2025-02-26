@@ -3,8 +3,9 @@
 namespace App\Livewire;
 
 use Livewire\Component;
+use App\Models\skillset;
 
-class Skillset extends Component
+class SkillsetList extends Component
 {
     public function render()
     {

@@ -1160,7 +1160,7 @@
         <div class="w-[60vw] h-[60vh] bg-black rounded flex flex-col items-center justify-center">
             <h1 class="w-fit text-4xl">Laravel</h1>
             <div class="grid grid-cols-2 my-[3%]">
-                @livewire('skillset')
+                @livewire('SkillsetList')
 
             </div>
         </div>
