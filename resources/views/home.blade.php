@@ -1,4 +1,7 @@
 @extends("components.layouts.layout")
 @section('content')
-    <h1>Hello world</h1>
+    <div>
+        <h1>Welcome to my portfolio site take a look around</h1>
+    </div>
+
 @endsection
