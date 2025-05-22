@@ -21,9 +21,5 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        View::composer('components.layouts.app.footer', function ($view) {
-            $date = app(Controllers\DateController::class)->getCurrentYear();
-            $view->with('footerDate', $date);
-        });
     }
 }
