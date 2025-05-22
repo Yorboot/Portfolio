@@ -4,10 +4,21 @@ namespace App\Http\Controllers;
 
 use Illuminate\Support\Facades\Date;
 
-abstract class DateController extends Controller
+class DateController extends Controller
 {
-    public static function getCurrentYear():int{
-        $date = Date("Y");
-        return $date;
+
+    public function About()
+    {
+
+        $currentYear = Date("Y");
+        if(Date("n")>=10 && Date("d")>=04){
+            $date = Date("Y")-2007;
+        }else{
+            $date = Date("Y")-2007-1;
+        }
+
+        return view('AboutMe')
+            ->with('date', $date)
+            ->with('currentYear', $currentYear);
     }
 }
