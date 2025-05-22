@@ -5,6 +5,6 @@
         <main class="h-[95vh] flex-container justify-center">
             @yield('content')
         </main>
-        <x-footer/>
+        <x-footer :date="$currentYear"/>
     </body>
 </html>
